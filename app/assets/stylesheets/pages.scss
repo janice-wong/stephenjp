@@ -1,0 +1,51 @@
+header {
+  font-family: 'Nothing You Could Do';
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+
+.main {
+  margin: 30px auto -60px;
+}
+
+.main .img-responsive {
+  margin-bottom: 30px;
+}
+
+.navbar {
+  background-color: white;
+  border: none;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+  }
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  background: white;
+  border-bottom: 2px solid #bdbdbd;
+}
+
+.row {
+  // text-align: center;
+  // border: 2px solid #000;
+}
+
