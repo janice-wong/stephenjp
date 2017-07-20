@@ -298,7 +298,7 @@
   }
 
 // filmography pg
-  #film-container {
+  .other-container {
     width: 75%;
     margin: auto;
     padding-top: 2%;
@@ -312,4 +312,12 @@
 
   .hi {
     border: 2px;
+  }
+
+// contact pg
+  .contact-container {
+    width: 40%;
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
   }
