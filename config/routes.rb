@@ -3,5 +3,8 @@ Rails.application.routes.draw do
   get '/filmography' => 'pages#filmography'
   get '/about' => 'pages#about'
   get '/contact' => 'pages#contact'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get '/dance' => 'pages#dance'
+  get '/street' => 'pages#street'
+  get '/portraits' => 'pages#portraits'
+  get '/events' => 'pages#events'
 end
