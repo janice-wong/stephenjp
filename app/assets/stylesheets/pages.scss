@@ -123,8 +123,9 @@
     bottom: 0;
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0);
   }
+
   .wrapper .column .inner:hover:before {
     background-color: rgba(0, 0, 0, 0);
   }
