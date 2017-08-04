@@ -57,6 +57,10 @@ GEM
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    fancybox-rails (0.3.1)
+      railties (>= 3.1.0)
+    fancybox2-rails (0.2.7)
+      railties (>= 3.1.0)
     ffi (1.9.18)
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
@@ -167,6 +171,8 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   byebug
   coffee-rails (~> 4.2)
+  fancybox-rails
+  fancybox2-rails
   font-awesome-rails
   jbuilder (~> 2.5)
   jquery-rails

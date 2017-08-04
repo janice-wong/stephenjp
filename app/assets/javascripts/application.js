@@ -11,6 +11,18 @@
 // about supported directives.
 //
 //= require jquery
+//= require fancybox
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(document).ready(function() {
+  $(".fancybox").fancybox({
+    padding: 6,
+    helpers: {
+      overlay: {
+        locked: false
+      }
+    },
+  });
+});

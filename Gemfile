@@ -9,7 +9,8 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.4'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'fancybox-rails'
+gem 'fancybox2-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-rails'
 gem 'rails_12factor', group: :production
@@ -38,14 +39,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development, :test do
+group :production do
   gem 'pg'
 end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'sqlite3'
 end
 
 group :development do
